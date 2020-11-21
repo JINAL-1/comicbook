@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ,shrink-to-fit=no">
+    <title>Assignment 2</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nerko+One&family=Noto+Serif&display=swap" rel="stylesheet">
+
+    <!-- linking bootstrap css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!-- linking our css source code-->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    
+
+</head>
+<body>
+    <header>
+      <nav class="navbar navbar-expand-xl  fixed-top" id="navigationBar">
+      
+          <a class="navbar-brand" href="#">
+            <img src="https://wimpykid.com/wp-content/themes/wimpy_kid_1.1/images/logo4.png"  alt="nav logo">
+          </a>
+          
+          <button class="navbar-toggler" type="button" data-target="#globalnav" data-toggle="collapse" >
+          <span class="navbar-toggler-icon"></span>
+          </button>
+      
+        <div class="navbar-collapse collapse" id="globalnav">
+          <ul class="navbar-nav navbar-expand-md nav-fill mr-auto">
+            <!-- mr-auto pushes the search at the corner-->
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Activities</a>
+            </li>
+
+            <li class="nav-item" >
+              <a class="nav-link" href="#">Shop</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                About
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Author</a>
+                <a class="dropdown-item" href="#">Characters</a>
+                <a class="dropdown-item" href="#">Publisher</a>
+              </div><!-- .dropdown-menu-->
+            </li><!--  .nav-item dropdown  -->
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">News</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Join the Club</a>
+            </li>
+
+          </ul><!-- .navbar-nav -->
+
+           <form class="form-inline ml-auto">
+            <input type="search" placeholder="Search" aria-label="Search" class="form-control mr-2"/>
+            <button type="submit" class="btn btn-outline-primary" >
+              Search</button>
+          </form><!-- .form-inline -->
+
+        </div><!--  .collapse navbar-collapse  -->
+      </nav><!--- #navigationBar-->
+</header>
+
+<main>
+
+  <div class="icon-bar">
+    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+    <a href="#" class="google"><i class="fa fa-google"></i></a>
+    <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+    <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
+  </div><!-- .icon-bar-->
+  
+  <div class="container">
+     
+    <section class="synopsis">
+
+      <h1 class="expand-md-6">The Diary of a Wimpy Kid</h1>
+
+      <h2>Had a hilarious day at school delve into <span class="big"> The Diary of a Wimpy Kid </span> and know how Greg's day was?</h2>
+
+      <p>The hazards of growing up before you’re ready are revealed through Greg's words and drawings in his diary.Befitting a teen's diary, the books are filled with simple drawings of Greg's daily adventures. A book filled with comedy, drama, friends and family.
+
+      </p>
+
+      <button class="btn">Read More</button>
+    </section><!-- .synopsis-->
+    
+    
+    <div id="carouselcomic" class="carousel slide carousel-fade " style="width:90%" data-ride="carousel">
+           
+            <ol class="carousel-indicators">
+              <li data-target="#carouselcomic" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselcomic" data-slide-to="1"></li>
+              <li data-target="#carouselcomic" data-slide-to="2"></li>
+              <li data-target="#carouselcomic" data-slide-to="3"></li>
+              <li data-target="#carouselcomic" data-slide-to="4"></li>
+              <li data-target="#carouselcomic" data-slide-to="5"></li>
+              <li data-target="#carouselcomic" data-slide-to="6"></li>
+              <li data-target="#carouselcomic" data-slide-to="7"></li>
+              <li data-target="#carouselcomic" data-slide-to="8"></li>
+              <li data-target="#carouselcomic" data-slide-to="9"></li>
+            </ol><!-- .carousel-indicators-->
+
+           
+      <div class="carousel-inner">
+        
+        <figure class="carousel-item active">
+            <img src="https://upload.wikimedia.org/wikipedia/en/8/84/Diary_of_a_Wimpy_Kid_book_cover.jpg" class="size"  alt="Diary_of_a_Wimpy_Kid">
+            <figcaption class="carousel-caption">
+              <h3>Diary of a Wimpy Kid</h3>
+              <p>The introduction to the series focuses on the protagonist, Greg Heffley, and his attempts to become popular in school</p>
+            </figcaption>
+        </figure>
+            
+        <figure class="carousel-item ">
+            <img src="https://upload.wikimedia.org/wikipedia/en/8/80/Diary_of_a_Wimpy_Kid_Rodrick_Rules_book_cover.png" class="size" alt="Rodrick Rules">
+            <figcaption class="carousel-caption">
+              <h3>Rodrick Rules</h3>
+              <p>Greg's brother, Rodrick, threatens to reveal an embarrassing incident that took place last summer, and Greg must prevent this while putting up with Rodrick's oppressive ways.</p>
+            </figcaption>
+        </figure>
+        
+        <figure class="carousel-item ">
+          <img src="https://upload.wikimedia.org/wikipedia/en/0/04/Diary_of_a_Wimpy_Kid_The_Last_Straw_book_cover.png" class="size "  alt="The Last Straw">
+          <figcaption class="carousel-caption">
+            <h3>The Last Straw</h3>
+            <p>Greg's father, Frank, wants Greg to be stronger and plans to send him to a military school. Greg must convince him to change his mind, whilst trying to impress his crush.</p>
+          </figcaption>
+        </figure>
+      
+        <figure class="carousel-item ">
+          <img src="https://upload.wikimedia.org/wikipedia/en/7/78/Diary_of_a_Wimpy_Kid_Dog_Days_book_cover.jpg" class="size"  alt="Dog Days">
+          <figcaption class="carousel-caption">
+            <h3>Dog Days</h3>
+            <p>Over summer vacation, Greg struggles with a boardwalk vacation, staying friends with Rowley, impressing a high school girl at the town pool, and coping with a new pet dog.</p>
+          </figcaption>
+        </figure>
+        
+        <figure class="carousel-item ">
+          <img src="https://upload.wikimedia.org/wikipedia/en/0/0a/Diary_of_a_Wimpy_Kid_The_Ugly_Truth_book_cover.jpg" class="size"  alt="The Ugly Truth">
+          <figcaption class="carousel-caption">
+            <h3>The Ugly Truth</h3>
+            <p>Greg realizes he is growing up and has to face the challenges of this period, like changing dentists, attending a school lock-in, and learning about puberty.</p>
+          </figcaption>
+        </figure>
+
+        <figure class="carousel-item ">
+          <img src="https://upload.wikimedia.org/wikipedia/en/f/f5/Diary_of_a_Wimpy_Kid_Cabin_Fever_book_cover.jpg" class="size"  alt="Cabin Fever">
+          <figcaption class="carousel-caption">
+            <h3>Cabin Fever</h3>
+            <p>The family is stranded in the house during a blizzard, while Greg fears that he will go to jail for accidentally vandalizing his school</p>
+          </figcaption>
+        </figure>
+
+        <figure class="carousel-item ">
+          <img src="https://upload.wikimedia.org/wikipedia/en/8/86/Diary_of_a_Wimpy_Kid_The_Third_Wheel_book_cover.jpg" class="size"  alt="The Third Wheel">
+          <figcaption class="carousel-caption">
+            <h3>The Third Wheel</h3>
+            <p>Greg tries to find a date for a school Valentine's Day dance, and he and Rowley end up both taking a girl named Abigail.</p>
+          </figcaption>
+        </figure>
+
+        <figure class="carousel-item ">
+        <img src="https://upload.wikimedia.org/wikipedia/en/6/61/Diary_of_a_Wimpy_Kid_Hard_Luck_book_cover.jpg" class="size"  alt="Hard Luck">
+          <figcaption class="carousel-caption">
+            <h3>Hard Luck</h3>
+            <p>Continuing from the last book, Abigail and Rowley are now a couple, leaving Greg out. When things get worse for him, Greg uses a magic 8-ball to make his decisions for him and turn his life around.</p>
+          </figcaption>
+        </figure>
+                     
+        <figure class="carousel-item ">
+        <img src="https://upload.wikimedia.org/wikipedia/en/3/3c/Diary_of_a_Wimpy_Kid_The_Long_Haul_book_cover.jpg" class="size"  alt="The Long Haul">
+          <figcaption class="carousel-caption">
+            <h3>The Long Haul</h3>
+            <p>The Heffleys go on a road trip over the summer, to Greg's dismay.</p>
+          </figcaption>
+        </figure>
+            
+        <figure class="carousel-item ">
+        <img src="https://upload.wikimedia.org/wikipedia/en/8/87/Diary_of_a_Wimpy_Kid_Old_School_book_cover.jpg" class="size"  alt="old school">
+          <figcaption class="carousel-caption">
+            <h3>Old School</h3>
+            <p>Greg's mother petitions the town to not use electronics for a weekend. Later, to avoid his dad after accidentally ruining the car, Greg goes on a school field trip to an old-fashioned farm.</p>
+          </figcaption>
+        </figure>
+      </div><!-- .carousel-inner-->      
+        
+      <a class="carousel-control-prev" href="#carouselcomic" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+
+      <a class="carousel-control-next" href="#carouselcomic" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+
+  </div><!-- .carousel-slide-->
+
+  <section class="break">
+  <section id="context">
+
+    <form class="border" id="purchase">
+
+      <div class="form-row">
+        <div class="col-md-4 mb-3">
+          <label for="fname">First name</label>
+          <input type="text" class="form-control" id="fname" placeholder="First name" required>
+        </div>
+  
+        <div class="col-md-4 mb-3">
+          <label for="lname">Last name</label>
+          <input type="text" class="form-control" id="lname" placeholder="Last name" required>
+        </div>
+      </div><!-- form row-->
+  
+      <div class="form-row">
+        <div class="col-md-4 mb-3">
+          <label for="validationDefaultUsername">Username</label>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="inputGroupPrepend2">#</span>
+            </div><!-- .input-group prepend-->
+            <input type="text" class="form-control" id="validationDefaultUsername" placeholder="Username" aria-describedby="inputGroupPrepend2" required>
+           </div> <!-- .input-group -->
+          </div><!-- .col-md-4 mb-3-->
+        </div> <!-- form-row-->
+        
+        
+        <div class="form-row">
+          <p><small> Note : Users gets Wimpy Kid Autograph and 10% off their purchase</small></p>
+        </div><!-- form-row-->
+      
+      <div class="form-row">
+        <div class="col-md-6 mb-3">
+          <label for="city">City</label>
+          <input type="text" class="form-control" id="city" placeholder="City" required>
+        </div>
+  
+        <div class="col-md-3 mb-3">
+          <label for="province">Province</label>
+          <input type="text" class="form-control" id="province" placeholder="Province" required>
+        </div>
+  
+        <div class="col-md-3 mb-3">
+          <label for="pc">Postal Code</label>
+          <input type="text" class="form-control" id="pc" placeholder="Postal Code" required>
+        </div>
+      </div><!-- form-row-->
+  
+      <div class="form-row">
+        <div class="col-md-3 mb-3" >
+          <div class="dropdown">
+            <label>Choose a book:</label>
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             -- Select a Book --
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+              <button class="dropdown-item" type="button">Diary of a Wimpy Kid</button>
+              <button class="dropdown-item" type="button">Rodrick Rules</button>
+              <button class="dropdown-item" type="button">The Last Straw</button>
+              <button class="dropdown-item" type="button">Dog Days</button>
+              <button class="dropdown-item" type="button">Cabin Fever</button>
+              <button class="dropdown-item" type="button">The Third Wheel</button>
+              <button class="dropdown-item" type="button">Old School</button>
+              <button class="dropdown-item" type="button">The Ugly Truth</button>
+            </div><!-- .dropdown-menu -->
+          </div><!-- .dropdown-->
+        </div><!-- .col-md-3 mb-3-->
+        </div><!-- form-row-->
+  
+      
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+          <label class="form-check-label" for="invalidCheck2">
+            Agree to terms and conditions
+          </label>
+        </div><!-- .form-check-->
+      </div><!-- .form-group-->
+
+
+      <button class="btn btn-primary" type="submit">Check out</button>
+    </form><!-- #purchase-->
+
+        <!-- Accordion Component-->
+  <div class="accordion" id="accordionExample">
+    <div class="card">
+        <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Review by Doan Viet Bac
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                </button>
+            </h2>
+        </div><!-- .card-header-->
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card-body">
+            I'm in love. I am a 12 year old girl with a college reading level, and these are the only books I read. I love the style, the simplicity of the drawings, the story; ect. Everything about this series in my opinion is amazing, other than the book release dates are very spread out, I'd love to be able to read them more frequently, but I do understand that making these takes alot of time, and that that's okay. I haven't read anything other than this series in about a year now. I heard the 15th and 16th are coming out, the 15th really soon. Can't wait.
+          <br><br>
+           <a href="">
+             <small>Add your review here</small>
+          </a>
+          </div><!-- .card-body-->
+        </div><!-- .collapse show-->
+    </div>  <!-- .card -->    
+                  
+    <div class="card">
+      <div class="card-header" id="headingTwo">
+          <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Review by Archana Verma
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+              </button>
+          </h2>
+      </div><!-- .card-header-->
+      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+        <div class="card-body">
+          I love the creativity of the writer but the best part of the books are the pictures given on the pages to understand exactly what was happening... I belong to a Non English speaking country but because of the pictures it's very easy to understand I'll suggest Jeff if he'll gonna write some more books plz give some pictures so that readers could easily understand.... a big thanx from me... KEEP WRITING JEFF AND KEEP US SATISFIED....
+          <br><br>
+          <a href="">
+            <small>Add your review here</small>
+         </a>
+        </div><!-- .card-body-->
+      </div><!-- .collapse show-->
+  </div>  <!-- .card -->          
+    
+  <div class="card">
+    <div class="card-header" id="headingThree">
+        <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Review by Shesha Chinaemerem
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+            </button>
+        </h2>
+    </div><!-- .card-header-->
+
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+        Funny book and it's also describes the teenagers mind
+        <br><br>
+        <a href="">
+          <small>Add your review here</small>
+       </a>
+      </div><!-- .card-body-->
+    </div><!-- .collapse show-->
+  </div>  <!-- .card --> 
+
+  </div><!-- .accordion -->
+
+
+</section><!-- #context-->
+
+<section class="addInfo">
+
+
+
+<section class="cardpanel" id="panel">
+  <h4>Does Wimpy Kid interest you?</h4>
+  <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" id="pills-author-tab" data-toggle="pill" href="#pills-author" role="tab" aria-controls="pills-author" aria-selected="true">About Author</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="pills-publisher-tab" data-toggle="pill" href="#pills-publisher" role="tab" aria-controls="pills-publisher" aria-selected="false">About Publisher</a>
+  </li>
+ </ul>
+
+<div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-author" role="tabpanel" aria-labelledby="pills-author-tab">
+   <aside class="card" id="card-author" >
+    <article class="card-body">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTCv6Dfq2H9-0gs_OsLZDmkAZIBTLh7IUdd5Q&usqp=CAU" alt="author" style="width: 250px; height:150px">
+      <h5 class="card-title">About the Author</h5>
+      <h6 class="card-subtitle mb-2 text-muted">Jeff Kinney</h6>
+      <p class="card-text">He's one of the world's most successful children's authors - selling 200 million copies of his Diary of a Wimpy Kid series and meeting three US presidents along the way. Diary of a Wimpy Kid author Jeff Kinney didn’t grow up wanting to be a children’s author. His dream was to become a newspaper cartoonist, but he wasn’t able to get his comic strips syndicated.</p>
+      <a href="#" class="card-link">Connect with him</a>
+      <a href="#" class="card-link">Learn More</a>
+    </article><!--.card-body-->
+ </aside><!-- .card -->
+ </div><!--#pills-home-->
+ 
+  <div class="tab-pane fade" id="pills-publisher" role="tabpanel" aria-labelledby="pills-publisher-tab">
+  <div class="card" id="card-publisher" >
+    <div class="card-body">
+      <h5 class="card-title">About the Publisher</h5>
+      <h6 class="card-subtitle mb-2 text-muted">Harry N. Abrams, Inc.</h6>
+      <p class="card-text">In 2006, Jeff signed a multi-book deal with publisher Harry N. Abrams, Inc. to turn Diary of a Wimpy Kid into a print series. The first Diary of a Wimpy Kid book was published in 2007 and became an instant bestseller. Just a year later, more than 100,000 copies were in print in the United States alone.</p>
+      <a href="#" class="card-link">Contact the Publishing House</a>
+      <a href="#" class="card-link">Learn More</a>
+    </div>
+  </div>
+</div>
+   
+</div>
+</section><!-- .cardpanel-->
+
+<section id="activity">
+
+  <h4>Activities</h4>
+  <p>Millions of kids are readers because of these books, so take Wimpy Kid into your classroom with these specially created resources for teachers, designed to help you lead fun, focused and curriculum-linked lessons.</p>
+  <button class="btn btn-link btn-block text-left" id="sk"> Starter Kit</button>
+
+  <br>
+  <p>Using the Diary of a Wimpy Kid series to encourage Reluctant Readers.
+
+    Download games and taster activities that will get students excited about the books while developing their reading, writing, speaking and listening skills.
+    
+    </p>
+    <button class="btn btn-link btn-block text-left"> Reluctant Readers</button>
+</section><!-- #activity-->
+
+</section><!-- .addInfo-->
+  </section><!-- .break-->
+</div><!-- .container-->
+</main>
+
+    <footer>
+      <p>
+       Created by Jinal Parekh 200442270&REG;
+        Updated 2020 &copy;
+      </p>
+    </footer>
+    <!-- attaching bootstrap javascript-->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
+</body>
+</html>
